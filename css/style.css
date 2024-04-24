@@ -137,6 +137,10 @@ ul {
   transition: 0.3s;
 }
 
+.cart-list-quantity-section > button:hover {
+  background-color: rgb(225, 0, 0);
+  cursor: pointer;
+}
 
 .cart-list-img-section > img {
   height: 100px;
@@ -159,10 +163,6 @@ ul {
   width: 50px;
   padding: 5px 0;
   text-indent: 5px;
-}
-
-.cart-list-quantity-section > button:hover {
-  background-color: #5d0000;
 }
 
 .total-amount {
